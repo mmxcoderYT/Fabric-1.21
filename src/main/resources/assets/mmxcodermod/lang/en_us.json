@@ -33,5 +33,7 @@
   "block.mmxcodermod.deepslate_small_gold_ore": "Deepslate Small Gold Ore",
   "block.mmxcodermod.deepslate_quartz_ore": "Deepslate Quartz Ore",
   "block.mmxcodermod.small_ruby_ore": "Small Ruby Ore",
-  "block.mmxcodermod.deepslate_small_ruby_ore": "Deepslate Small Ruby Ore"
+  "block.mmxcodermod.deepslate_small_ruby_ore": "Deepslate Small Ruby Ore",
+
+  "itemgroup.mmxcodermod.mmxcoders_tab": "mmxcoders Tab"
 }

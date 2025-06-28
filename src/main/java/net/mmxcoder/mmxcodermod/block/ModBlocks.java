@@ -19,6 +19,21 @@ public class ModBlocks {
     public static final Block raw_ruby_block = registerBlock("raw_ruby_block",
             new Block(AbstractBlock.Settings.create().strength(5.0F, 6.0F)
                     .requiresTool()));
+    public static final Block ruby_ore = registerBlock("ruby_ore",
+            new Block(AbstractBlock.Settings.create().strength(3.0F, 3.0F)
+                    .requiresTool()));
+    public static final Block deepslate_ruby_ore = registerBlock("deepslate_ruby_ore",
+            new Block(AbstractBlock.Settings.create().strength(4.5F, 3.0F)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block endstone_ruby_ore = registerBlock("endstone_ruby_ore",
+            new Block(AbstractBlock.Settings.create().strength(3.0F, 9.0F)
+                    .requiresTool()));
+    public static final Block netherrack_ruby_ore = registerBlock("netherrack_ruby_ore",
+            new Block(AbstractBlock.Settings.create().strength(0.4F)
+                    .requiresTool().sounds(BlockSoundGroup.NETHER_ORE)));
+    public static final Block end_coal_ore = registerBlock("end_coal_ore",
+            new Block(AbstractBlock.Settings.create().strength(3.0F, 9.0F)
+                    .requiresTool()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
