@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mmxcodermod:block/end_nether_gold_ore"
+  }
+}
