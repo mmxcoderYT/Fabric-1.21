@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mmxcodermod:end_copper_ore",
+    "mmxcodermod:end_iron_ore",
+    "mmxcodermod:end_lapis_ore",
+    "mmxcodermod:nether_copper_ore",
+    "mmxcodermod:nether_iron_ore",
+    "mmxcodermod:nether_lapis_ore"
+  ]
+}

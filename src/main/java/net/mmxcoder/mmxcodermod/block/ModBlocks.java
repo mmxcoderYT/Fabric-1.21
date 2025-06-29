@@ -63,8 +63,7 @@ public class ModBlocks {
             AbstractBlock.Settings.create().strength(3.0F, 9.0F)
                     .requiresTool()));
     public static final Block end_copper_ore = registerBlock("end_copper_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
-                    AbstractBlock.Settings.create().strength(3.0F, 9.0F)
+            new Block(AbstractBlock.Settings.create().strength(3.0F, 9.0F)
                     .requiresTool()));
     public static final Block end_diamond_ore = registerBlock("end_diamond_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 7),
@@ -98,34 +97,33 @@ public class ModBlocks {
                     .strength(3.0f,9.0f).requiresTool()));
     public static final Block nether_coal_ore = registerBlock("nether_coal_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(0,2),
-                    AbstractBlock.Settings.create().strength(3.0F, 9.0F)
+                    AbstractBlock.Settings.create().strength(0.4F)
                             .requiresTool()));
     public static final Block nether_copper_ore = registerBlock("nether_copper_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
-                    AbstractBlock.Settings.create().strength(3.0F, 9.0F)
+            new Block (AbstractBlock.Settings.create().strength(0.4F)
                             .requiresTool()));
     public static final Block nether_diamond_ore = registerBlock("nether_diamond_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 7),
-                    AbstractBlock.Settings.create().strength(3.0F, 9.0F)
+                    AbstractBlock.Settings.create().strength(0.4F)
                             .requiresTool()));
     public static final Block nether_emerald_ore = registerBlock("nether_emerald_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3,7),
-                    AbstractBlock.Settings.create().strength(3.0f,9.0f)
+                    AbstractBlock.Settings.create().strength(0.4F)
                             .requiresTool()));
     public static final Block nether_gold_ore = registerBlock("nether_gold_ore",
-            new Block(AbstractBlock.Settings.create().strength(3.0f,9.0f)
+            new Block(AbstractBlock.Settings.create().strength(0.4F)
                     .requiresTool()));
     public static final Block nether_iron_ore = registerBlock("nether_iron_ore",
-            new Block(AbstractBlock.Settings.create().strength(3.0f,9.0f)
+            new Block(AbstractBlock.Settings.create().strength(0.4F)
                     .requiresTool()));
     public static final Block nether_lapis_ore = registerBlock("nether_lapis_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
-                    AbstractBlock.Settings.create().strength(3.0f,9.0f)
+                    AbstractBlock.Settings.create().strength(0.4F)
                             .requiresTool()));
     public static final Block nether_redstone_ore = registerBlock("nether_redstone_ore",
             new RedstoneOreBlock(AbstractBlock.Settings.create().ticksRandomly()
                     .luminance(createLightLevelFromLitBlockState(9))
-                    .strength(3.0f,9.0f).requiresTool()));
+                    .strength(0.4F).requiresTool()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "mmxcodermod:end_gold_ore",
+    "mmxcodermod:end_redstone_ore",
+    "mmxcodermod:end_emerald_ore",
+    "mmxcodermod:end_diamond_ore",
+    "mmxcodermod:nether_gold_ore",
+    "mmxcodermod:nether_redstone_ore",
+    "mmxcodermod:nether_emerald_ore",
+    "mmxcodermod:nether_diamond_ore",
+    "mmxcodermod:ruby_block",
+    "mmxcodermod:ruby_ore",
+    "mmxcodermod:deepslate_ruby_ore",
+    "mmxcodermod:endstone_ruby_ore",
+    "mmxcodermod:netherrack_ruby_ore",
+    "mmxcodermod:raw_ruby_block",
+    "mmxcodermod:small_ruby_ore",
+    "mmxcodermod:deepslate_small_ruby_ore"
+  ]
+}
