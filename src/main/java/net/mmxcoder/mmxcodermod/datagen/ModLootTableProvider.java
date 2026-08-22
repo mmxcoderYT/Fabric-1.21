@@ -34,33 +34,32 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.ruby_ore, oreDrops(ModBlocks.ruby_ore, ModItems.raw_ruby_item));
         addDrop(ModBlocks.deepslate_ruby_ore, oreDrops(ModBlocks.deepslate_ruby_ore, ModItems.raw_ruby_item));
-        addDrop(ModBlocks.small_ruby_ore, multipleOreDrops(ModBlocks.small_ruby_ore, ModItems.ruby_nugget_item, 5, 9));
-        addDrop(ModBlocks.deepslate_small_ruby_ore, multipleOreDrops(ModBlocks.deepslate_small_ruby_ore, ModItems.ruby_nugget_item, 5, 9));
+        addDrop(ModBlocks.small_ruby_ore, multipleOreDrops(ModBlocks.small_ruby_ore, ModItems.ruby_nugget_item, 2, 6));
+        addDrop(ModBlocks.deepslate_small_ruby_ore, multipleOreDrops(ModBlocks.deepslate_small_ruby_ore, ModItems.ruby_nugget_item, 2, 6));
         addDrop(ModBlocks.endstone_ruby_ore, oreDrops(ModBlocks.endstone_ruby_ore, ModItems.raw_ruby_item));
         addDrop(ModBlocks.netherrack_ruby_ore, oreDrops(ModBlocks.netherrack_ruby_ore, ModItems.raw_ruby_item));
-        addDrop(ModBlocks.small_gold_ore, multipleOreDrops(ModBlocks.ruby_ore, ModItems.raw_ruby_item, 5, 9));
-        addDrop(ModBlocks.deepslate_small_gold_ore, multipleOreDrops(ModBlocks.ruby_ore, ModItems.raw_ruby_item, 5, 9));
-        addDrop(ModBlocks.quartz_ore, multipleOreDrops(ModBlocks.ruby_ore, ModItems.raw_ruby_item, 5, 9));
-        addDrop(ModBlocks.deepslate_quartz_ore, multipleOreDrops(ModBlocks.ruby_ore, ModItems.raw_ruby_item, 5, 9));
-        addDrop(ModBlocks.end_coal_ore, multipleOreDrops(ModBlocks.ruby_ore, ModItems.raw_ruby_item, 5, 9));
-        addDrop(ModBlocks.end_copper_ore, multipleOreDrops(ModBlocks.ruby_ore, ModItems.raw_ruby_item, 5, 9));
+        addDrop(ModBlocks.small_gold_ore, multipleOreDrops(ModBlocks.small_gold_ore, Items.GOLD_NUGGET, 2, 6));
+        addDrop(ModBlocks.deepslate_small_gold_ore, multipleOreDrops(ModBlocks.deepslate_small_gold_ore, Items.GOLD_NUGGET, 2, 6));
+        addDrop(ModBlocks.quartz_ore, oreDrops(ModBlocks.quartz_ore, Items.QUARTZ));
+        addDrop(ModBlocks.deepslate_quartz_ore, oreDrops(ModBlocks.deepslate_quartz_ore, Items.QUARTZ));
+        addDrop(ModBlocks.end_coal_ore, oreDrops(ModBlocks.end_coal_ore, Items.COAL));
+        addDrop(ModBlocks.end_copper_ore, multipleOreDrops(ModBlocks.end_copper_ore, Items.RAW_COPPER, 2, 5));
         addDrop(ModBlocks.end_diamond_ore, oreDrops(ModBlocks.end_diamond_ore, Items.DIAMOND));
         addDrop(ModBlocks.end_emerald_ore, oreDrops(ModBlocks.end_emerald_ore, Items.EMERALD));
         addDrop(ModBlocks.end_gold_ore, oreDrops(ModBlocks.end_gold_ore, Items.RAW_GOLD));
         addDrop(ModBlocks.end_iron_ore, oreDrops(ModBlocks.end_iron_ore, Items.RAW_IRON));
         addDrop(ModBlocks.end_lapis_ore, multipleOreDrops(ModBlocks.end_lapis_ore, Items.LAPIS_LAZULI, 4, 9));
-        addDrop(ModBlocks.end_nether_gold_ore, multipleOreDrops(ModBlocks.ruby_ore, ModItems.raw_ruby_item, 5, 9));
-        addDrop(ModBlocks.end_nether_quartz_ore, multipleOreDrops(ModBlocks.ruby_ore, ModItems.raw_ruby_item, 5, 9));
-        addDrop(ModBlocks.end_redstone_ore, multipleOreDrops(ModBlocks.ruby_ore, ModItems.raw_ruby_item, 5, 9));
-        addDrop(ModBlocks.nether_coal_ore, multipleOreDrops(ModBlocks.ruby_ore, ModItems.raw_ruby_item, 5, 9));
-        addDrop(ModBlocks.nether_copper_ore, multipleOreDrops(ModBlocks.ruby_ore, ModItems.raw_ruby_item, 5, 9));
+        addDrop(ModBlocks.end_nether_gold_ore, multipleOreDrops(ModBlocks.end_nether_gold_ore, Items.GOLD_NUGGET, 2, 6));
+        addDrop(ModBlocks.end_nether_quartz_ore, oreDrops(ModBlocks.end_nether_quartz_ore, Items.QUARTZ));
+        addDrop(ModBlocks.end_redstone_ore, multipleOreDrops(ModBlocks.end_redstone_ore, Items.REDSTONE, 4, 5));
+        addDrop(ModBlocks.nether_coal_ore, oreDrops(ModBlocks.nether_coal_ore, Items.COAL));
+        addDrop(ModBlocks.nether_copper_ore, multipleOreDrops(ModBlocks.nether_copper_ore, Items.RAW_COPPER, 2, 5));
         addDrop(ModBlocks.nether_diamond_ore, oreDrops(ModBlocks.nether_diamond_ore, Items.DIAMOND));
         addDrop(ModBlocks.nether_emerald_ore, oreDrops(ModBlocks.nether_emerald_ore, Items.EMERALD));
         addDrop(ModBlocks.nether_gold_ore, oreDrops(ModBlocks.nether_gold_ore, Items.RAW_GOLD));
         addDrop(ModBlocks.nether_iron_ore, oreDrops(ModBlocks.nether_iron_ore, Items.RAW_IRON));
         addDrop(ModBlocks.nether_lapis_ore, multipleOreDrops(ModBlocks.nether_lapis_ore, Items.LAPIS_LAZULI, 4, 9));
-        addDrop(ModBlocks.nether_redstone_ore, multipleOreDrops(ModBlocks.ruby_ore, ModItems.raw_ruby_item, 5, 9));
-
+        addDrop(ModBlocks.nether_redstone_ore, multipleOreDrops(ModBlocks.nether_redstone_ore, Items.REDSTONE, 4, 5));
     }
 
         public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

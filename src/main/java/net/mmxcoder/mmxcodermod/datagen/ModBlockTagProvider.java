@@ -18,6 +18,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.raw_ruby_block)
                 .add(ModBlocks.ruby_ore)
+                .add(ModBlocks.ruby_block)
                 .add(ModBlocks.deepslate_ruby_ore)
                 .add(ModBlocks.small_ruby_ore)
                 .add(ModBlocks.deepslate_small_ruby_ore)
