@@ -69,9 +69,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.deepslate_ruby_ore)
                 .add(ModBlocks.endstone_ruby_ore)
                 .add(ModBlocks.netherrack_ruby_ore)
-                .add(ModBlocks.raw_ruby_block)
-                .add(ModBlocks.small_ruby_ore)
-                .add(ModBlocks.deepslate_small_ruby_ore);
+                .add(ModBlocks.raw_ruby_block);
 
         /* getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
 
