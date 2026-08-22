@@ -30,9 +30,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmelting(exporter, ruby_item_smeltables, RecipeCategory.MISC, ModItems.ruby_item, 0.7f, 200, "ruby_item");
         offerBlasting(exporter, ruby_item_smeltables, RecipeCategory.MISC, ModItems.ruby_item, 1.4f, 100, "ruby_item");
 
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ruby_item, RecipeCategory.MISC, ModBlocks.ruby_block);
+        //offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ruby_item, RecipeCategory.MISC, ModBlocks.ruby_block);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.raw_ruby_block)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.raw_ruby_block)
                 .pattern("RRR")
                 .pattern("RRR")
                 .pattern("RRR")
@@ -45,7 +45,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.raw_ruby_block), conditionsFromItem(ModBlocks.raw_ruby_block))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ruby_block)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ruby_block)
                 .pattern("RRR")
                 .pattern("RRR")
                 .pattern("RRR")
@@ -56,6 +56,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ruby_item, 9)
                 .input(ModBlocks.ruby_block)
                 .criterion(hasItem(ModBlocks.ruby_block), conditionsFromItem(ModBlocks.ruby_block))
+                .group("ruby")
                 .offerTo(exporter, Identifier.of(MmxcodersMod.MOD_ID, "ruby_item_from_ruby_block"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ruby_item)
@@ -64,6 +65,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("RRR")
                 .input('R', ModItems.ruby_nugget_item)
                 .criterion(hasItem(ModItems.ruby_nugget_item), conditionsFromItem(ModItems.ruby_nugget_item))
+                .group("ruby")
                 .offerTo(exporter, Identifier.of(MmxcodersMod.MOD_ID, "ruby_item_from_ruby_nugget_item"));
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ruby_nugget_item, 9)
