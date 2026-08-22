@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "mmxcodermod:block/endstone_ruby_ore"
-  }
-}
