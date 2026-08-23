@@ -35,5 +35,10 @@
   "block.mmxcodermod.small_ruby_ore": "Small Ruby Ore",
   "block.mmxcodermod.deepslate_small_ruby_ore": "Deepslate Small Ruby Ore",
 
-  "itemgroup.mmxcodermod.mmxcoders_tab": "mmxcoders Tab"
+  "itemgroup.mmxcodermod.mmxcoders_tab": "mmxcoders Tab",
+
+  "key.category.mmxcodermod": "mmxcoders Mod",
+  "key.mmxcodermod.ore_xray": "Toggle Ore X-Ray",
+  "message.mmxcodermod.ore_xray.on": "Ore X-Ray: ON",
+  "message.mmxcodermod.ore_xray.off": "Ore X-Ray: OFF"
 }

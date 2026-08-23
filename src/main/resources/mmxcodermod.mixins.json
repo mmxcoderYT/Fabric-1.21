@@ -5,6 +5,10 @@
 	"mixins": [
 		"ExampleMixin"
 	],
+	"client": [
+		"XrayBlockStateMixin",
+		"XrayBlockMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	},
